@@ -1,0 +1,222 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+html, body {
+    width:100%;
+    height:100%;
+    font-family: 'Futura New Light', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+@font-face {
+    font-family: 'Futura New Light';
+    src: url("../fonts/FuturaNewLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Futura New Demi';
+    src: url("../fonts/FuturaNewDemi.otf") format("opentype");
+}
+
+/* --general-- */
+
+.bold {
+    font-family: 'Futura New Demi', sans-serif;
+}
+.white-colored {
+    color: #ffffff;
+}
+.navbar.navbar-default {
+    height: 100px;
+}
+.blue-colored {
+    color: #4bafc9;
+}
+.orange-colored {
+    color: #dcab5e;
+}
+.blue-line {
+    width: 50px;
+    margin-top: -18px;
+}
+.title {
+    font-size: 36px;
+}
+.subtitle {
+    font-size: 14px;
+    margin-top: -3px;
+    margin-left: -45px;
+}
+.subtitle-row {
+    margin-left: -120px;
+}
+.text-block {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.blue-back {
+    background-color: #4bafc9;
+}
+.orange-back {
+    background-color: #dcab5e;
+}
+.clear-background {
+    background: rgba(255,255,255,0.85);
+}
+.key-facts, .buildings {
+    padding: 50px;
+}
+
+/* --hero image-- */
+
+.hero-image {
+    height: 100%;
+    background: url("../images/main-hero.png") center center;
+}
+.hero-image-project {
+    height: 100%;
+    background: url("../images/project-hero.jpg") center center;
+}
+.hero-image-state {
+    height: 100%;
+    background: url("../images/state-hero.jpg") center center;
+}
+.isleit-logo {
+    height: 70px;
+}
+.isleit {
+    border: solid;
+    border-width: 3px;
+    font-size: 72px;
+    padding: 15px 30px;
+}
+.isleit-border {
+    margin-top: 122px;
+}
+.isleit-border, .isleit-border-project {
+    width: 254px;
+}
+a.nav-link.blue-colored {
+    padding-top: 39px;
+    font-size:  16px;}
+a.nav-link.blue-colored.bold {
+    color: #1a92ad;
+}
+a.nav-link.blue-colored.bold:hover {
+    color: #dcab5e
+}
+.isleit-sense h2 {
+    margin-right: 700px;
+    margin-left: 75px;
+}
+
+/* --about us-- */
+
+.team-image, .people-image, .man-image {
+    height: 400px;
+    transition: all 0.4s;
+}
+.team-image {
+    background: url("../images/team-image.png") center;
+}
+.article-team {
+    margin-top: 15px;
+}
+.btn-row {
+    margin-top: 30px;
+}
+button.btn.btn-warning.center-block {
+    margin-top: 30px;}
+
+/* --isleit idea-- */
+
+.isleit-idea {
+    height: 300px;
+}
+.isleit-idea h4 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.quote-text {
+    padding: 88px 300px;
+}
+.thumbnail-block {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.thumbnail {
+    height: 300px;
+    border: 1px solid #1a92ad;
+}
+.people-image {
+    background: url("../images/people.png") center;
+}
+.man-image {
+    background: url("../images/man.png") center;
+}
+
+
+/* --footer --*/
+
+footer {
+    font-size: 16px;
+    padding-top:70px;
+}
+ul li.footer-nav.bold a {
+    color: #ffffff;
+}
+.darkblue-background {
+    background-color: #045077;
+}
+.logo-footer {
+    height: 120px;
+}
+.privacy {
+    font-size: 12px;
+    margin-top: 60px;
+}
+
+/* --PAGE PROJECT --*/
+.icons {
+    width: 90px;
+    margin: 70px 15px 15px 15px;
+}
+.isleit-border-project {
+    margin-top: 222px;
+}
+.project-slogan {
+    font-size: 36px;
+    margin-top: 280px;
+}
+.img-building {
+    width: 250px;
+    margin-top: 50px;
+}
+.sea-back {
+    background: url("../images/sea-back.jpg");
+    padding-top: 95px;
+}
+.cta-details {
+    padding-left: 280px;
+}
+.btn-request {
+    width: 165px;
+    height: 40px;
+    margin-top: 32px;
+}
+.cta-title, .pic-title {
+    font-size: 36px;
+}
+
+
+
+
+
+
+/* --images general --*/
+
+.cover {
+    background-size: cover;
+}
+.team-image:hover, .people-image:hover, .man-image:hover, .img-building:hover {
+    opacity: 0.8;
+}
